@@ -1,0 +1,52 @@
+.subject-box {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    position: relative;
+
+
+    & .subject-upper {
+
+        & div {
+            border-style: solid;
+            padding: 10px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+
+    & .subject-lower {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & .subject-code {
+            width: 80%;
+            border-left: solid;
+            border-bottom: solid;
+            border-right: solid;
+
+        }
+
+        & .subject-credits {
+            width: 20%;
+            border-right: solid;
+            border-bottom: solid;
+
+        }
+    }
+
+    & .subject-credits-req {
+        position: absolute;
+        right: -10px;
+        top: -5px;
+        background-color: black;
+        color: white;
+        border-radius: 50%;
+        padding: 5px;
+        font-size: small;
+    }
+}

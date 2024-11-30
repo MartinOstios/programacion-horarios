@@ -1,0 +1,14 @@
+.semester{
+    width: 170px;
+}
+
+.subjects{
+    display: flex;
+    flex-direction: column;
+}
+
+.num_semestre{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
